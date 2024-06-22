@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(82, 78, 78);
+  color: #ffffff;
+
+  padding: 20px;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #0e0d0b;
+}
+b {
+  color: #0e0d0b;
+}
+p,
+ul {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+strong {
+  display: block;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 1.2em;
+}
+
+/* Extra small devices (phones, 599px and down) */
+@media screen and (max-width: 599px) {
+  body {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 1.4em;
+  }
+
+  h2 {
+    font-size: 1.1em;
+  }
+
+  p,
+  ul {
+    font-size: 0.9em;
+  }
+
+  strong {
+    font-size: 1em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px to 767px) */
+@media screen and (min-width: 600px) and (max-width: 767px) {
+  body {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  p,
+  ul {
+    font-size: 1em;
+  }
+
+  strong {
+    font-size: 1.1em;
+  }
+}
+
+/* Medium devices (small laptops, 768px to 991px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    padding: 30px;
+  }
+
+  h1 {
+    font-size: 1.8em;
+  }
+
+  h2 {
+    font-size: 1.4em;
+  }
+
+  p,
+  ul {
+    font-size: 1.1em;
+  }
+
+  strong {
+    font-size: 1.2em;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199px) */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    padding: 40px;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.5em;
+  }
+
+  p,
+  ul {
+    font-size: 1.2em;
+  }
+
+  strong {
+    font-size: 1.3em;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {
+  body {
+    padding: 50px;
+  }
+
+  h1 {
+    font-size: 2.2em;
+  }
+
+  h2 {
+    font-size: 1.6em;
+  }
+
+  p,
+  ul {
+    font-size: 1.3em;
+  }
+
+  strong {
+    font-size: 1.4em;
+  }
+}
